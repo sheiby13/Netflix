@@ -440,7 +440,6 @@ header{
 	    z-index: 5;
 	}
 }
-
 @media screen and (max-width: 320px){
 	.our-story-card-animation-poster{
 		width: 80%;
@@ -465,4 +464,12 @@ header{
 	  font-weight: 400;
 	  color: rgb(63, 63, 246);
 	}
+}
+/*ANIMATION-CARD---part-3*/
+.our-story-card-video-part-3{ 
+   height: 85%;
+   z-index: 1;
+   position: absolute;
+   left: 33px;
+   top: -11%;
 }
