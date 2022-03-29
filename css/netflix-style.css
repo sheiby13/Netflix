@@ -24,6 +24,10 @@ a{
     color: #ffffff;
     text-decoration: none;
 }
+a:hover{
+	text-decoration: underline;
+
+}
 p{
     margin: 0.5rem 0;
     font-weight: bold;
@@ -306,7 +310,6 @@ header{
   .animation-card{ 
     padding: 0;
   }
-
 }
 @media screen and (max-width: 768px){
   .animation-card .container{
@@ -465,7 +468,7 @@ header{
 	  color: rgb(63, 63, 246);
 	}
 }
-/*ANIMATION-CARD---part-3*/
+/*ANIMATION-CARD---part-3*/ 
 .our-story-card-video-part-3{ 
    height: 85%;
    z-index: 1;
@@ -473,3 +476,95 @@ header{
    left: 33px;
    top: -11%;
 }
+/*FOOTER------*/
+.footer-card{
+	padding: 70px 45px;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+.footer-top-a {
+    color: #757575;
+}
+.footer-card , .footer-card a, .footer-card p{
+    color:#757575;
+    font-size: 13px;
+}
+.footer-card p{
+	font-size: 16px;
+    color: #757575;
+    font-weight: 400;
+}
+.footer-card li{
+    line-height: 2.4;
+}
+.footer-card ul{
+	padding: 0;
+	margin: 0;
+}
+.footer-country{
+	color: #757575;
+	font-size: 13px;
+	margin: 24px 0 13px;
+}
+.dropdown-btn{
+	border: 1px solid #757575;
+    color: #757575;
+    border-radius: 4px;
+    background: rgba(0, 0, 0, 0.4);
+    width: auto;
+    padding: 10px;
+}
+.language-dropdown:hover{
+	border: none;
+}
+.language-dropdown{
+	background: transparent;
+    border: none;
+    color: #757575;
+    padding: 0  5px 0 25px;
+    line-height: 1.7;
+}
+.fas {
+    font-family: "Font Awesome 5 Pro";
+    font-weight: 900;
+    display: inline-block;
+    font-style: normal;
+    line-height: 1;
+    color: #999;
+    z-index: 567; 
+    position: absolute; 
+    padding: 5px;
+}
+/*FOOTER-ADAPTIVE----*/
+@media screen and (max-width: 1024px){
+	.dropdown-btn {
+	    padding: 10px 5px;
+	}
+}
+@media screen and (max-width: 768px){
+	.dropdown-btn {
+	    padding: 10px 5px;
+	}
+}
+@media screen and (max-width: 425px){
+	.dropdown-btn{
+		padding: 0.4rem;
+		border-radius: 4px;
+	}
+	.language-dropdown{
+	    padding: 3px 3px 3px 20px;
+	    line-height: 1.5;
+	}
+	.footer-card{
+		padding: 50px 30px;
+	}
+}
+@media screen and (max-width: 375px){
+	.footer-card{
+		padding: 50px 25px;
+	}
+}
+@media screen and (max-width: 320px){
+}
+
+
